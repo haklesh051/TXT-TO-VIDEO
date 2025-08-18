@@ -931,7 +931,7 @@ async def txt_handler(bot: Client, m: Message):
 
 # Ankitshakya
 
-@bot.on_message(filters.command(["𝐃𝐄𝐀𝐓𝐇𝐂𝐎𝐃𝐄"]))
+@bot.on_message(filters.command(["Haklesh1"]))
 async def txt_handler(bot: Client, m: Message):
     editable = await m.reply_text(f"**🔹Send me the TXT file and wait.**")
     input: Message = await bot.listen(editable.chat.id)
